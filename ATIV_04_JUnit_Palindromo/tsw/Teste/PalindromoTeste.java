@@ -23,7 +23,7 @@ class PalindromoTeste {
 	void testarStringPalindromoSucesso() {
 		// Setando variável 
 		
-		String string = "Ana"; 
+		String string = "ana"; 
 		
 		// resultado = true 
 		
