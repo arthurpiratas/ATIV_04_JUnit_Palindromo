@@ -7,7 +7,7 @@ public class Palindromo implements IPalindromo {
 		
 		String string2 = new String();
 		
-		for (int i = string.length(); i > 0;  i++) {
+		for (int i = (string.length()-1); i >= 0;  i--) {
 			if(string.charAt(i) != ' ') {
 				string2 += string.charAt(i);
 			}
