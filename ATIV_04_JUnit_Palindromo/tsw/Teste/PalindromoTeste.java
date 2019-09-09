@@ -105,9 +105,10 @@ class PalindromoTeste {
 		
 		String string = ""; 
 		
-		// resultado Erro 
+				
+		// resultado = true 
 		
-		palindromo.isPolindromo(string);
+		assertTrue(palindromo.isPolindromo(string));
 	}
 
 }
